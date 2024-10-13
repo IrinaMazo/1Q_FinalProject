@@ -1,0 +1,60 @@
+ul {
+list-style-type:none;
+padding:0;
+margin:10px;
+}
+
+li {
+float:left;}
+
+li a {
+display:block;
+padding:10px;
+font-size:1.5em;
+color:#490b09;
+Background-color:white;}
+
+#About{
+margin-top:1.3em;
+clear:left;
+}
+
+h2 {
+color:#490b09;
+Padding-left:20px;
+font-family:Courier New;}
+
+
+#imga{
+padding-bottom:50
+width:100%;
+}
+
+#a1{
+display:block;
+padding: 8px;}
+
+#a2{
+display:block;
+padding: 8px;}
+
+#Con {
+Height:80%;
+float:right;
+Margin:10px;
+Margin-right:50px;}
+
+p {
+text-align: justify;
+width: 50%;
+font-size:1.3em;
+Padding-left:20px;}
+
+#one {
+clear:left;}
+
+hr {
+border-top: 2px solid #490b09;}
+
+#What2 {
+margin:0;}
