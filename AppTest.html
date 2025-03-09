@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+<head>
+
+	<script src="Test.js"></script>
+	<link rel="stylesheet" href="Test.css">
+
+</head>
+
+<body>
+<h1> Welcome to the Interactive Quiz Application</h1>
+
+<div id="vfirst">
+<h4>1. You want to throw your leftover vegetables, where do you throw it? <br>choose the BEST answer.<br></h4>
+
+	<button onclick="questionOne(0)">A</button>
+		<p>Recyclable bin</p>
+	<button onclick="questionOne(1)">B</button>
+		<p>Biodegradable bin</p>
+	<button onclick="questionOne(2)">C</button>
+		<p>Compost bin</p>
+	<button onclick="questionOne(3)">D</button>
+		<p>Infectious bin</p>
+<br>
+<p id="sug1"></p>
+</div>
+
+<div>
+<h4>2. You have extra empty plastic soda bottles around the house. <br>What do you do with it? choose the BEST answer.</h4>
+	
+	<button onclick="questionTwo(0)">A</button>
+		<p>Throw it away in the trash bin</p>
+	<button onclick="questionTwo(1)">B</button>
+		<p>Throw it away somewhere</p>
+	<button onclick="questionTwo(2)">C</button>
+		<p>Give it to your friend.</p>
+	<button onclick="questionTwo(3)">D</button>
+		<p>Repurpose it.</p>
+<br>
+<p id="sug2"></p>
+</div>
+
+<div>
+<h4>3. You need groceries for the week! What do you do? choose the BEST answer.</h4>
+
+	<button onclick="questionThree(0)">A</button>
+		<p>Go to the mall.</p>
+	<button onclick="questionThree(1)">B</button>
+		<p>Harvest in your yard.</p>
+	<button onclick="questionThree(2)">C</button>
+		<p>Go to the farmer's market.</p>
+	<button onclick="questionThree(3)">D</button>
+		<p>Order it online.</p>
+<br>
+<p id="sug3"></p>
+</div>
+
+<div>
+<h4>4. You're torn between buying take out for dinner or making it yourself. <br>What do you do? choose the BEST answer.</h4>
+
+	<button onclick="questionFour(0)">A</button>
+		<p>Order your dinner online.</p>
+	<button onclick="questionFour(1)">B</button>
+		<p>Go out to eat.</p>
+	<button onclick="questionFour(2)">C</button>
+		<p>Don't eat.</p>
+	<button onclick="questionFour(3)">D</button>
+		<p>Cook a simple meal.</p>
+<br>
+<p id="sug4"></p>
+</div>
+
+<div>
+<h4>5. You need to do a quick shop at the store to restock some necessities. <br>The store's a 10 min walk from the house, what do you do?  choose the BEST answer.</h4>
+
+	<button onclick="questionFive(0)">A</button>
+		<p>Use your car.</p>
+	<button onclick="questionFive(1)">B</button>
+		<p>Use your friend's car.</p>
+	<button onclick="questionFive(2)">C</button>
+		<p>Ride your bike.</p>
+	<button onclick="questionFive(3)">D</button>
+		<p>Walk.</p>
+<br>
+<p id="sug5"></p>
+</div>
+
+
+<button id="sub" onclick="Score()">submit</button>
+
+<p id="results()"></p>
+
+</body>
+
+</html>

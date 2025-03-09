@@ -1,0 +1,32 @@
+* {
+	font-family:courier;
+}
+
+button {
+	float:left;
+	margin-left:45%;
+	margin-right:1%;
+}
+
+h4,h1 {
+	text-align:center;
+}
+
+div {
+	margin-bottom:5%;
+}
+
+#sub {
+	margin-left:250px%;
+	margin-bottom:10%;
+	width: 150px;
+	height: 75px;
+	font-size:25px;
+
+}
+
+
+#sug1, #sug2, #sug3, #sug4, #sug5 {
+	margin-left:48.5%;
+	padding-right:30%;
+}
